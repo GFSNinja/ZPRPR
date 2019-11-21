@@ -5,7 +5,7 @@ double pconvert(int number, int all) {
     return (double) (number * 10) / all;
 }
 
-void n(char *array, int *boolean){
+void n(char *array, int *boolean) {
     FILE *fr;
     if ((fr = fopen("../sifra.txt", "r")) == NULL) {
         printf("Spravu sa nepodarilo nacitat\n");
